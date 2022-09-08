@@ -4,25 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
     <script type="module" src="./src/app.js"></script>
     <title>FruityHealth</title>
 </head>
 <body>
 
     <header>
-        <a id="logo" href="/"><img id="logo-img" src="" alt="Logo Image"/></a>
         <nav>
-    
-            <div class="menu">
-                <a href="/search">Search Offer</a>
-                <a href="/create">Create Offer</a>
-                <a href="/about">My Offers</a>
-            </div>
+            <section class="logo">
+                <img src="./images/logo.png" alt="logo" width="50" height="60">
+            </section>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/search">Search Fruit</a></li>
+                <li><a href="/create">Create Fruit</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
         </nav>
     </header>
     <main id="content"></main>
-    <footer></footer>
+    <footer class="text-center text-white" style="background-color: hsl(0, 0%, 100%);">
+        <div class="container pt-4">
+          <section class="mb-4">
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.facebook.com/taner.mutalib/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="taner_mutalip@hotmail.com"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-envelope"></i
+            ></a>
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/taner-ismail-b98298195/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/Taner940706"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          
+        </div>
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
     
 </body>
 </html>
