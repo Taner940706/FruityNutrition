@@ -4,6 +4,7 @@ export const settings = {
 
 };
 
+
 async function request(url, options) {
     try {
         const response = await fetch(url, options);
@@ -32,6 +33,7 @@ function createOptions(method = 'get', body) {
     const options = {
         method,
         headers: {}
+        
     }
 
 
