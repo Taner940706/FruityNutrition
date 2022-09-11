@@ -6,7 +6,7 @@ import { homePage } from './view/home.js';
 import { searchPage } from './view/search.js';
 import { createPage } from './view/create.js';
 import { detailsPage } from './view/details.js';
-//import { MyPage } from './view/about.js';
+import { AboutPage } from './view/about.js';
 
 
 const main = document.querySelector('#content');
@@ -15,7 +15,7 @@ const main = document.querySelector('#content');
 page('/', decorateContext, homePage);
 page('/search', decorateContext, searchPage);
 page('/details/:id', decorateContext, detailsPage);
-//page('/about', decorateContext, MyPage);
+page('/about', decorateContext, AboutPage);
 page('/create', decorateContext, createPage);
 
 

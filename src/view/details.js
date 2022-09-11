@@ -2,6 +2,12 @@ import { html } from '../../node_modules/lit-html/lit-html.js';
 import {getFruitById,getFruitPicByName} from '../api/data.js';
 
 const detailsTamplate = (fruit,pic) => html`
+<section id="main-information">
+<p id="name">${fruit.name}</p>
+<p id="genus">${fruit.genus}</p>
+<p id="family">${fruit.family}</p>
+<p id="order">${fruit.order}</p>
+</section>
 <section id="details">
           <div id="details-wrapper">
             <p id="details-carbohydrates">${fruit.nutritions['carbohydrates']}</p>
