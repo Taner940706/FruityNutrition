@@ -12,12 +12,21 @@
 {
     margin-top: 10%;
 }
-.how-img 
+.how-img1
 {
     text-align: center;
 }
-.how-img img{
-    width: 40%;
+.how-img2
+{
+    text-align: center;
+    padding-top: 300px;
+}
+.how-img1 img{
+    width: 80%;
+}
+
+.how-img2 img{
+    width: 80%;
 }
 
 h1 {

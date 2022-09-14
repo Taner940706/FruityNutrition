@@ -4,7 +4,7 @@ const homeTemplate = html `
 <h1>Welcome to FruitNutrition</h1>
 <section class="how-section1">
 <div class="row">
-    <div class="col-md-6 how-img">
+    <div class="col-md-6 how-img1">
         <img src="https://tse3.mm.bing.net/th?id=OIP.GDnSNDAeFT7LFTaa6vQ4YQHaHa&amp" class="rounded-circle img-fluid" alt=""/>
     </div>
     <div class="col-md-6">
@@ -22,7 +22,7 @@ Healthy children learn better. People with adequate nutrition are more productiv
 Malnutrition, in every form, presents significant threats to human health. Today the world faces a double burden of malnutrition that includes both undernutrition and overweight, especially in low- and middle-income countries. There are multiple forms of malnutrition, including undernutrition (wasting or stunting), inadequate vitamins or minerals, overweight, obesity, and resulting diet-related noncommunicable diseases.
 The developmental, economic, social, and medical impacts of the global burden of malnutrition are serious and lasting for individuals and their families, for communities and for countries.</p>
     </div>
-    <div class="col-md-6 how-img">
+    <div class="col-md-6 how-img2">
         <img src="https://tse3.mm.bing.net/th?id=OIP.x9a37zv63QZX5Noi3KLIYQHaE8&amp" class="rounded-circle img-fluid" alt=""/>
     </div>
      </div>
