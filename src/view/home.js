@@ -2,6 +2,7 @@ import { html } from '../../node_modules/lit-html/lit-html.js';
 
 const homeTemplate = html `
 <h1>Welcome to FruitNutrition</h1>
+<hr>
 <section class="how-section1">
 <div class="row">
     <div class="col-md-6 how-img1">

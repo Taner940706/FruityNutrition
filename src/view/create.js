@@ -4,6 +4,7 @@ import { createFruit } from '../api/data.js';
 const createTamplate = (onSubmit) => html`<section id="create">
 <div class="form" @submit=${onSubmit}>
   <h2>Create Fruit</h2>
+  <hr>
   <form class="create-form">
   <input
       type="text"
