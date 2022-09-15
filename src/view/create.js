@@ -52,7 +52,7 @@ const createTamplate = (onSubmit) => html`<section id="create">
       placeholder="Sugar"
     />
 
-    <button type="submit">post</button>
+    <button type="submit">Add Fruit</button>
   </form>
 </div>
 </section>`;

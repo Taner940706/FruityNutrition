@@ -2,9 +2,11 @@ import { html } from '../../node_modules/lit-html/lit-html.js';
 import {searchFruitByName, getAllFruits, searchFruitByFamily, searchFruitByGenus, searchFruitByOrder } from '../api/data.js';
 
 
-const searchTamplate = (fruit, onSearch,params = '') => html`<section>
+const searchTamplate = (fruit, onSearch,params = '') => html`<section id = "search_module">
 
 <form @submit=${onSearch}>
+<h2>Search Fruit</h2>
+<hr>
 <div class="wrap">
 <div class="search">
     <input type="text" name="search" class="searchTerm" value=${params}>

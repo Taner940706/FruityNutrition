@@ -104,10 +104,10 @@ body {
     display: inline-block;
 }
 .text-primary {
-    color: #ceaa4d !important;
+    color: #606060 !important;
 }
 .text-secondary {
-    color: #15395A !important;
+    color: #606060 !important;
 }
 .font-weight-600 {
     font-weight: 600;
@@ -136,7 +136,7 @@ body {
 }
 
 .bg-secondary {
-    background: #15395A !important;
+    background: #D6ED17 !important;
 }
 @media screen and (min-width: 576px){
     .pe-sm-6, .px-sm-6 {
@@ -170,4 +170,8 @@ body {
 }
 .rounded {
     border-radius: 0.25rem!important;
+}
+
+#developer{
+  color: #606060;
 }

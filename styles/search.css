@@ -1,3 +1,109 @@
 .fruit p{
     color: #606060; font-size: 20px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: left; text-shadow: 0 1px 1px #fff; padding-top: 20px;
  }
+
+ #main-information p{
+    color: #606060; font-size: 20px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: left; text-shadow: 0 1px 1px #fff; padding-top: 20px;
+   }
+   #details p{
+       color: #606060; font-size: 20px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: left; text-shadow: 0 1px 1px #fff; padding-top: 20px;
+   
+   }
+   
+   .fruit {
+       display: flex;
+       justify-content: space-between;
+       max-width: 70%;
+       margin: 25px auto;
+       background-color: #D6ED17;
+       border-radius: 5px;
+       border: 2px ridge rgb(210, 208, 208);
+       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+     }
+   
+     .details-btn {
+       text-decoration: none;
+       margin: auto 30px;
+       font-size: 21px;
+       width: 110px;
+       padding: 10px;
+       text-align: center;
+       color: #D6ED17;
+       background: #606060;
+       
+     }
+     
+     .fruit p {
+       margin: auto;
+       font-size: 21px;
+       min-width: 25%;
+       max-width: 30%;
+       text-align: center;
+     }
+     
+     .fruit span {
+       padding: 10px;
+       margin: auto;
+     }
+
+     #search_module {
+        margin-top: 50px;
+        display: block;
+      }
+
+      .wrap{
+        text-align: center;
+      }
+
+      .searchButton {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #606060;
+        width: 10%;
+        border: 0;
+        padding: 15px;
+        color: #D6ED17;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+      }
+      #opt1 {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #606060;
+        width: 10%;
+        border: 0;
+        padding: 15px;
+        color: #D6ED17;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+        text-align: center;
+      }
+
+    .searchTerm{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: white;
+    width: 30%;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #606060;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-right: 3%;
+    
+      }
+    #search_module h2{
+      text-align: center;
+    }
+    #search_module hr{
+      margin-bottom: 5%;
+    }
+

@@ -24,7 +24,7 @@ const AboutTemplate = html `
                             </div>
                             <div class="col-lg-6 px-xl-10">
                                 <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
-                                    <h3 class="h2 text-white mb-0">Taner Ismail</h3>
+                                    <h3 id="developer" >Taner Ismail</h3>
                                     <span class="text-primary">Developer</span>
                                 </div>
                                 <ul class="list-unstyled mb-1-9">
