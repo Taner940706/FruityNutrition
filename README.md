@@ -8,7 +8,7 @@ Single Page for Applications (SPA) + RESTful API for Fruit Nutrition. It support
 - Search by fruit order: fruit/order/:keyword
 - Search by fruit Add a new fruit: /create
 ## App Details
-The app is based on Node.js + lit-HTML + Page.js + CSS.
+The app is based on Node.js + lit-HTML + Page.js + CSS + Bootstrap.
 Note: To fix CORS issue please visit https://cors-anywhere.herokuapp.com and click button ,,Request temporary access to the demo server".
 ## RESTful API
 The app use two APIs:
