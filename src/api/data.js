@@ -24,7 +24,7 @@ export async function createFruit(listing) {
     return await api.put(host_fruit, listing);
 }
 export async function getFruitPicByName(name) {
-    return await api.get(host_img + "happy "+`${name}`);
+    return await api.get(host_img +`${name}`);
 }
 export async function searchFruitByName(query){
     return api.get(host_fruit+"/"+ encodeURIComponent(`${query}`))
